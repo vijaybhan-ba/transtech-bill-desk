@@ -1,0 +1,7 @@
+streamlit
+google-genai
+pandas
+Pillow
+pypdf
+openpyxl
+openai>=2.0.0
