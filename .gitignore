@@ -1,0 +1,48 @@
+# Local secrets and environment
+.streamlit/secrets.toml
+secrets.toml
+credentials.toml
+.env
+.env.*
+*.key
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Test and coverage artifacts
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated app files
+download/
+*.log
+
+# Streamlit local data
+.streamlit/
+
+# Misc generated files
+*.sqlite3
+*.db
+*.tmp 

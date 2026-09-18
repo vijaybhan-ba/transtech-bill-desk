@@ -118,6 +118,12 @@ PREMIUM_CSS = """
         color: #D32F2F;
     }
 
+    .title-subtext {
+        margin-top: 0.4rem;
+        font-size: 0.9rem;
+        color: #777777;
+    }
+
     .onboarding-grid {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1169,6 +1175,7 @@ st.markdown(
     <div class="premium-title-wrap">
         <div class="title-kicker">Billing Operations Suite</div>
         <h1 class="premium-title">Transtech <span>Bill Desk</span></h1>
+        <div class="title-subtext">Powered by Transtech Bill Desk</div>
     </div>
     """,
     unsafe_allow_html=True,
