@@ -1,6 +1,6 @@
 import unittest
 
-from app import apply_case_jar_logic, is_jar_item
+from pages.billing_desk import apply_case_jar_logic, is_jar_item
 
 
 class IsJarItemTests(unittest.TestCase):

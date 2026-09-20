@@ -1,4 +1,5 @@
 streamlit
+streamlit-geolocation
 google-genai
 pandas
 Pillow

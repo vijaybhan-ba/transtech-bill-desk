@@ -1,7 +1,7 @@
 import io
 from types import SimpleNamespace
 
-import app
+from pages import billing_desk as app
 
 
 def test_valid_gemini_result_never_calls_openai(monkeypatch):
