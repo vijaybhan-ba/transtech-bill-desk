@@ -1,6 +1,6 @@
 from types import SimpleNamespace
 
-from pages import billing_desk as app
+import app
 
 
 def test_model_fallbacks_do_not_include_unavailable_model():

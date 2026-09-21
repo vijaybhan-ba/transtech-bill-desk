@@ -1,5 +1,5 @@
 import pandas as pd
-from pages.billing_desk import apply_case_jar_logic
+from app import apply_case_jar_logic
 
 # Simulated Gemini output from a complex invoice with mixed case and jar rows
 raw_records = [
